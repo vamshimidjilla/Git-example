@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37080" started-at="2018-08-04T18:06:05Z" finished-at="2018-08-04T18:06:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37080" started-at="2018-08-04T18:06:05Z" finished-at="2018-08-04T18:06:42Z">
+      <class name="com.second.scripts.Gmail">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.second.scripts.Gmail@cc285f4]" name="openBrowser" is-config="true" duration-ms="10631" started-at="2018-08-04T23:35:54Z" finished-at="2018-08-04T23:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.second.scripts.Gmail@cc285f4]" name="beforeTCExecution" is-config="true" duration-ms="1" started-at="2018-08-04T23:36:05Z" finished-at="2018-08-04T23:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.second.scripts.Gmail.username() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method status="PASS" signature="username()[pri:0, instance:com.second.scripts.Gmail@cc285f4]" name="username" duration-ms="37011" started-at="2018-08-04T23:36:05Z" finished-at="2018-08-04T23:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.second.scripts.Gmail@cc285f4]" name="afterTCExecution" is-config="true" duration-ms="1" started-at="2018-08-04T23:36:42Z" finished-at="2018-08-04T23:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=username status=SUCCESS method=Gmail.username()[pri:0, instance:com.second.scripts.Gmail@cc285f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.second.scripts.Gmail@cc285f4]" name="closeBrowser" is-config="true" duration-ms="823" started-at="2018-08-04T23:36:42Z" finished-at="2018-08-04T23:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.second.scripts.Gmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
